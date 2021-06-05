@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-div{
+    background-color: rgb(39, 36, 36);
+    position: fixed;
+    top: 90px;
+    right: 50px;
+    width: 110px;
+    border-radius: 20px;
+}
+.navbar-div a{
+    display: block;
+    list-style: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+#demo{
+    padding: 30px 3px 30px 3px;
+    text-align: center;
+    text-decoration: none;
+}
+#demo:hover{
+    background-color: #22A39F;
+}
+
+
+
+
+
+
+
+
+
+
+#front {
+    background-image: url("images/backg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#front_name_page {
+    position: absolute;
+    top: 42%;
+    left: 36%;
+}
+#front_name {
+    text-align: center;
+    padding-top: 0%;
+    margin: 2px;
+    color: white;
+    font-size: 63px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+#front_resume {
+    text-align: center;
+    padding-top: 0%;
+    margin: 2px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+#front_name_hr {
+    width: 74%;
+    margin: auto;
+    border: 0.5px solid white ;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1280px; 
+    padding: 40px 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sec1{
+    width: 320px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.sec2{
+    width: 280px;
+    margin-top: 40px;
+}
+.sec3{
+    width: 180px;
+    padding-left: 38px;
+    margin-top: 20px;
+    line-height: 15px;
+}
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+p {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container-hr {
+    border-color: #727878;
+    opacity: 0.2;
+    border-top: 1px solid #eee;
+    margin-block-end: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+}
+#profile .row > div {
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: center;
+}
+h3 {
+    font-size: 28px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#profile .row > div img {
+    width: 212px;
+    height: 203px;
+    border-radius: 123px;
+    border: 10px solid #F3EFE0;
+}
+.container-heading{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #22A39F;
+    font-weight: 300;
+    margin-bottom: 3px;
+    font-size: 54px;
+    margin-top: 20px;   
+}
+.container-heading-quote{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #727878;
+}
+.container-subHeading{
+    margin-bottom: 20px;
+    text-align: left;
+    color: #22A39F;
+    font-weight: 100;
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+.row-right-side{
+    width: 680px;
+    padding-left: 16px;
+}
+.row-left-side{
+    width: 1300px;
+}
+.row-heading{
+    padding-bottom: 3px;
+    margin-bottom: -15px;
+    margin-top: -2px;
+    font-weight: 700;
+}
+.row-heading1{
+    font-weight: 700;
+}
+.experience.row{
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.glyphicon.filled {
+    color: #22A39F;
+}
+.glyphicon {
+    color: #DFE0E0;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.no-bullets{
+    list-style-type: none;
+}
+.ability-title{
+    float: left;
+    margin: 5px;
+    padding-left: 12px;
+}
+.ability-score{
+    float: right;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+}
+.ability-score:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    column-gap: 50px;
+    margin: 7px;
+  }
+  .grid-item{
+    border-radius: 24px;
+  }
+  .grid-item:hover{
+    background-color: rgb(231, 231, 231);
+  }
+  .faltu:hover{
+    background-color: rgb(255, 255, 255);
+}
+  
+
+
+
+
+
+
+
+
+
+.project-div{
+    display: flex;
+}
+.project-image{
+    margin: 38px;
+    margin-bottom: 0px;
+    padding: 15px;
+    position: relative;
+}
+.project-image img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+.project-div2{
+    display: flex;
+    margin-top: 0px;
+}  
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding: 15px 15px 0px 0px;
+    font-size: 18px;
+}
+.glyphicon-new-window{
+    color: #22A39F;
+}
+.project-image:hover{
+    opacity: 0.6;
+    transform: scale(1.065);
+}
+
+
+
+
+
+
+
+
+
+
+.contact-grid-container {
+    display: grid;
+    grid-template-columns: 288px 328px;
+    column-gap: 113px;
+    margin: 7px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .contact-grid-item{
+    border-radius: 24px;
+  }
+.contact-symbol{
+    float: left;
+    margin: 5px;
+    padding-left: 12px;
+    color: #727878;
+}
+.contact-link{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7px;
+    color: #727878;
+}
+.contact-symbol img{
+    width: 32px;
+    height: 32px;
+}
+.contact-link a{
+    text-decoration: none;
+    color: #727878;
+}
+.thank{
+    text-align: center;
+    padding-top: 0%;
+    margin: 2px;
+    color: white;
+    font-size: 34px;
+    font-family: 'Averia Serif Libre', cursive;
+}
